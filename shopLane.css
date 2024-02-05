@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    border: 0px solid red;
+    display: flex;
+    z-index: 6;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8%;
+    background-color: white;
+    box-shadow: 0px 2px 5px #ccc;
+    box-sizing: border-box;
+}
+
+header div {
+    border: 0px solid blue;
+}
+
+header div h1 {
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+header div h1:hover {
+    color: #009688;
+}
+
+header div h1:hover span {
+    color: black;
+}
+
+header div h1 span {
+    font-weight: 400;
+}
+
+nav {
+    border: 0px solid red;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    border: 0px solid rgb(128, 98, 0);
+    width: 30%;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #009688;
+    border-bottom: 3px solid black;
+}
+
+#inputSearch {
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    border: 0px solid rgb(0, 255, 60);
+}
+
+#inputSearch i {
+    position: absolute;
+    left: 18px;
+    top: 30%;
+    color: #999;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#inputSearch input {
+    width: 100%;
+    position: absolute;
+    padding: 10px 24px 8px 48px;
+    box-sizing: border-box;
+    top: 18%;
+    border: none;
+    color: black;
+    outline: none;
+    background-color: rgb(245, 242, 242);
+}
+
+#shoppingCart {
+    border: 0px solid rgb(0, 42, 255);
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+#shoppingCart #cartCounter {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    margin: 0px;
+    text-align: center;
+    border: 0px solid red;
+    top: 0px;
+    color: white;
+    right: 68px;
+    border-radius: 50%;
+    background-color: #009688;
+    box-sizing: border-box;
+
+}
+
+#shoppingCart i {
+    color: black;
+    font-size: 28px;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+#shoppingCart img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#bannerSlider {
+    border: 0px solid red;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+
+#bannerSlider img {
+    width: 100%;
+}
+
+main {
+    border: 0px solid green;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 10%;
+}
+
+main #loadingImg {
+    border: 0px solid red;
+    display: block;
+    margin: 150px auto 0px auto;
+}
+
+main .title {
+    border: 0px solid red;
+    width: 80%;
+    margin: 0px auto 20px auto;
+    padding-top: 50px;
+}
+
+.homePageSection {
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto 60px auto;
+    box-sizing: border-box;
+}
+
+.homePageSection div {
+    box-sizing: border-box;
+    width: 19%;
+    height: 420px;
+    border: 0px solid green;
+    box-shadow: 0px 0px 3px #656565;
+}
+
+.homePageSection div:hover {
+    box-shadow: 0px 0px 5px #000000;
+}
+
+.homePageSection .image {
+    height: 280px;
+    width: 100%;
+}
+
+.homePageSection img {
+    height: 100%;
+    width: 100%;
+}
+
+.homePageSection .data {
+    padding-left: 10px;
+}
+
+.homePageSection h4 {
+    margin: 10px 0px 10px 0px;
+}
+
+.homePageSection span {
+    font-size: 12px;
+    color: rgb(152, 152, 152);
+}
+
+.homePageSection h5 {
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    color: #009688;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #1C1B1E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 8%;
+    box-sizing: border-box;
+}
+
+footer div {
+    padding-right: 60px;
+}
+
+footer div p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.8;
+}

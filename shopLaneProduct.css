@@ -1,0 +1,94 @@
+.productSection {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat, sans-serif;
+    margin-top: 50px;
+    border: 0px solid black;
+}
+
+.productSection #preview {
+    width: 40%;
+    height: 524px;
+    border: 0px solid green;
+    box-sizing: border-box;
+}
+.productSection #preview img {
+    width: 100%;
+    height: 100%;
+}
+
+.productSection #imageData #imgDataSection1 h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    margin: 0px 0px 20px 0px;
+}
+
+.productSection #imageData #imgDataSection1 p {
+    font-size: 20px;
+    color: #1B1919;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+    margin: 0px 0px 20px 0px;
+}
+
+.productSection #imageData #imgDataSection1 span {
+    font-size: 20px;
+    color: #009688;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.productSection #imageData #imgDataSection2 span {
+    display: block;
+    font-size: 16px;
+    color: #86939E;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px 0px;
+    border: 0px solid blue;
+    overflow-y: scroll;
+}
+.productSection #imageData #imgDataSection2 span::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.productSection #imageData #imgDataSection3 button {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #009688;
+    padding: 12px 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px #c8c5c5bf;
+}
+
+.productSection #imageData #imgDataSection3 button:hover {
+    box-shadow: 0px 0px 3px 3px #414141bf;
+}
+
+
+
+.productSection #imageData{
+    width: 60%;
+    height: 624px;
+    border: 0px solid #800000;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.productSection #imageData #imgDataSection3 img {
+    width: 15%;
+    height: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+

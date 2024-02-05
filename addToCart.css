@@ -1,0 +1,140 @@
+.cart-section-wrapper {
+    padding: 2% 8%;
+    box-sizing: border-box;
+  }
+  
+  .cart-section-main-heading {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 48px;
+  }
+  
+  .cart-section-div {
+    display: flex;
+    justify-content: start;
+  }
+  
+  .cart-section-left-section {
+    width: 50%;
+  }
+  
+  .cart-section-left-section-title {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  
+  .cart-item {
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 600px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .cart-item-img {
+    width: 80px;
+    min-width: 80px;
+    border-radius: 5px;
+    margin-right: 16px;
+  }
+  
+  .cart-section-right-section {
+    width: 50%;
+    height: fit-content;
+    margin-top: 48px;
+    margin-left: 3%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    padding: 16px;
+  }
+  
+  .cart-section-right-section-title {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  
+  .total-bill {
+    color: black;
+    opacity: 0.8;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 4px;
+  }
+  
+  #place-order-btn {
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    margin-top: 36px;
+    font-weight: 600;
+    /* color: rgba(0, 0, 0, 0.8); */
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  #place-order-btn:active {
+    transform: scale(1.1);
+    box-shadow: 0 0 14px #009687a8;
+  }
+  #order-placed-section {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #order-placed-section i {
+    font-size: 250px;
+    border-radius: 50%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    position: relative;
+  
+    color: rgb(105, 212, 105);
+  }
+  
+  #click-animation {
+    animation: process_success 1.5s 2;
+    height: 55%;
+    position: absolute;
+  
+    right: 10%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    background-color: rgb(105, 212, 105);
+  }
+  
+  #order-placed-section h3 {
+    font-size: 32px;
+    letter-spacing: 1.5px;
+  }
+  
+  #order-placed-section p {
+    font-size: 20px;
+  }
+  
+  @keyframes process_success {
+    0% {
+      width: 55%;
+    }
+    100% {
+      width: 5%;
+    }
+  }
